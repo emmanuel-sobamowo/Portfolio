@@ -1,26 +1,26 @@
 import React, { useState } from 'react';
 import projects from './data';
+import {ProjectCards} from '../../components/ProjectCards'
 
 const Projects = () => {
-    const [project, setProject] = useState(projectData);
+    const [project, setProject] = useState(projects);
 
 
     const renderProjects = () => {
         return project.map(p =>
-            <ProjectCards projectData={p} key={p.id} />
+            <ProjectCards projects={p} key={p.id} />
         );
     }
 
     return (
         <>
             <header className="intro-container">
-                <h1>👩🏻‍💻 Projects</h1>
-                <h5>A selection of my best work. More available on <a href={'./contact'}>Github.</a></h5>
+                <h1> My Projects</h1>
+                <h5>Below are some of the projects I have been working on!</h5>
             </header>
             <main className="projects-container">
                 {renderProjects()}
             </main>
-            <ScrollToTop />
         </>
     );
 };

@@ -7,14 +7,12 @@ import {BackButton} from '../index'
 const NavBar = () => {
     return (
         <>
-        
-        <div class="topnav">
-            <a class="active" href="#home">Home</a>
-            <a href="#about-section">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact Information</a>
-        </div>
+        <nav>
+            <BackButton />
+            <NavLink exact to="/" activeClassName="active">Home</NavLink>
+            <NavLink to="/projects" activeClassName="active">Projects</NavLink>
+            <NavLink to="/contact" activeClassName="active">Contact</NavLink>
+        </nav>
         </>
     )
 }

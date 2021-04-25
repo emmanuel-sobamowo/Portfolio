@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 const ProjectCards = ({ projects }) => {
 
 
   return (
-    <main className="project">
+    <main className="Projects-container">
       <div>
         <h3>{projects.name}</h3>
         <p className="projectDescription">{projects.description}</p>

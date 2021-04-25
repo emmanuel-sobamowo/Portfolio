@@ -1,24 +1,18 @@
 import React from 'react'
-import {Header, BackButton, Navbar, About, Skills,Contact } from './components'
+import { Navbar} from './components'
+import {About, Contact, Projects} from './pages'
+import { Switch, Route } from 'react-router-dom';
 
 
 const App = () => {
     return(
     <>
-        <Navbar />
-        <Header />
-       
-        <div id="About-container"> 
-             <About />
-        </div>
-        <div id="Skills-container">
-             <Skills />
-        </div>
-        
-
-        
-    
-    
+       <Navbar />
+       <Switch>
+           <Route exact path="/" component={About} />
+           <Route path="/projects" component={Projects} />
+           <Route path="/contact" component={Contact} />
+       </Switch>
     </>
     );
 }

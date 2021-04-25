@@ -1,4 +1,5 @@
 import React from 'react';
+import { Skills } from '../../components';
 
 const About = () => {
     return (
@@ -14,6 +15,7 @@ const About = () => {
             This is my portfolio with some of the projects I have started, and been a part of. 
             This is just the start of my software development journey, and I am eager to log all my progress and ideas!</p>
         </div>
+        <Skills />
         </>
     )
 }
