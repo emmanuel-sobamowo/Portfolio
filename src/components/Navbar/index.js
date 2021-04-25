@@ -1,18 +1,17 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import {BackButton} from '../index'
 
 import './style.css'
 
 const NavBar = () => {
     return (
         <nav>
+            <BackButton />
             <NavLink exact to="/" activeClassName="current">Home</NavLink>
-            <NavLink to="/Jayz" activeClassName="current">Jay-Z</NavLink>
-            <NavLink to="/Jhene" activeClassName="current">Jhene</NavLink>
-            <NavLink to="/Kanye" activeClassName="current">Kanye</NavLink>
-            <NavLink to="/RodWave" activeClassName="current">Rod Wave</NavLink>
-            <NavLink to="/Sza" activeClassName="current">Sza</NavLink>
-            <NavLink to="/Artists" activeClassName="current">Artists</NavLink>
+            <NavLink to="https://github.com/emmanuel-sobamowo" activeClassName="current">GitHub</NavLink>
+            <NavLink to="https://www.linkedin.com/in/emmanuel-sobamowo-7683b1156/" activeClassName="current">LinkedIn</NavLink>
+
         </nav>
     )
 }
