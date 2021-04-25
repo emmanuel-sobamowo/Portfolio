@@ -2,7 +2,7 @@
 #back-button {
     border-radius: 12px;
     transition-duration: 0.4s;
-    background-color: rgb(54, 54, 141);
+    background-color: rgb(152, 212, 212);
     color:black;
     width: 5rem;
     font-family: 'Zen Dots', cursive;
@@ -14,5 +14,5 @@
 
 #back-button:hover {
     background-color: white;
-    color:  rgb(54, 54, 141);
+    color:  black;
 }

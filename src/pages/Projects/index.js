@@ -16,9 +16,9 @@ const Projects = () => {
         <>
             <header className="intro-container">
                 <h1> My Projects</h1>
-                <h5>Below are some of the projects I have been working on!</h5>
+                <h4>Below are some of the projects I have been working on!</h4>
             </header>
-            <main className="projects-container">
+            <main>
                 {renderProjects()}
             </main>
         </>

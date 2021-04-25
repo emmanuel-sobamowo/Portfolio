@@ -10,9 +10,9 @@ const NavBar = () => {
         <>
         <nav>
             <BackButton />
-            <NavLink exact to="/" activeClassName="active">Home</NavLink>
-            <NavLink to="/projects" activeClassName="active">Projects</NavLink>
-            <NavLink to="/contact" activeClassName="active">Contact</NavLink>
+            <NavLink id="nav-link" exact to="/" activeClassName="active">Home</NavLink>
+            <NavLink id="nav-link" to="/projects" activeClassName="active">Projects</NavLink>
+            <NavLink id="nav-link" to="/contact" activeClassName="active">Contact</NavLink>
         </nav>
         </>
     )

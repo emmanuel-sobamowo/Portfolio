@@ -5,18 +5,44 @@
     justify-content: space-between;
 }
 #linkedin-logo {
-    width: 9rem;
+    width: 7rem;
     height: 5rem;
+    
     
 }
 #email-logo {
     width: 7rem;
     height: 5rem;
-    padding-left: 2.3rem;
+    
 }
 #github-logo {
     width: 7rem;
     height: 7rem;
-    padding-left: 1.4rem;
-
+}
+#email-link{
+    text-decoration: none;
+    color: black;
+}
+#email-link:hover{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: black;
+}
+#linkedin-link{
+    text-decoration: none;
+    color: black;
+}
+#linkedin-link:hover{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: black;
+}
+#github-link{
+    text-decoration: none;
+    color: black;
+}
+#github-link:hover{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: black;
 }
