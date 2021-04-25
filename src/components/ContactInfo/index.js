@@ -5,7 +5,7 @@ const ContactInfo = () => {
         <>
         <main className="container">
             <h1>My Contact Information</h1>
-            <h4>Below are a few ways you can contact me!</h4>
+            <h3>Below are a few ways you can contact me!</h3>
 
             <div className="email">
                     <h3>

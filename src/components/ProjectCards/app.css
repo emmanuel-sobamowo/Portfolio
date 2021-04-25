@@ -1,7 +1,7 @@
 .Projects-container{
     align-items: center;
     width: 40%;
-    background-color: rgb(170, 212, 229);
+    background-color: rgba(170, 212, 229, 0.671);
     border-radius: 20px;
     padding: 15px;
     margin-bottom: 2rem;
