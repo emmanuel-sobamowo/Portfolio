@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import projects from './data';
-import {ProjectCards} from '../../components/ProjectCards'
+import repos from './data'
+import {ProjectCards} from '../../components'
 
 const Projects = () => {
-    const [project, setProject] = useState(projects);
+    const [project, setProject] = useState(repos);
 
 
     const renderProjects = () => {
         return project.map(p =>
-            <ProjectCards projects={p} key={p.id} />
+            <ProjectCards repos={p} key={p.id} />
         );
     }
 
