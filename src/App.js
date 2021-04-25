@@ -1,6 +1,6 @@
 import React from 'react'
 import { Switch } from 'react-router'
-import {Header, BackButton, Navbar, About, Skills, } from './components'
+import {Header, BackButton, Navbar, About, Skills,Contact } from './components'
 
 
 const App = () => {
@@ -15,6 +15,10 @@ const App = () => {
         <div id="Skills-container">
              <Skills />
         </div>
+        <div id="contact">
+            <Contact />
+        </div>
+
         
     
     
