@@ -3,7 +3,8 @@ import React from 'react';
 const Skills = () => {
     return (
         <>
-        <h2>Some Of My Skills</h2>
+        <h2>Skills</h2>
+        <h5>Below are a some of the skills I have developed from my work experience and my Futureproof Coding Bootcamp.</h5>
 
             <table id="skills">
             <tr>

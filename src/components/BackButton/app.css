@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+#back-button {
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    background-color: rgb(54, 54, 141);
+    color: white;
+    width: 5rem;
+    font-family: 'Zen Dots', cursive;
+    font: 1.5rem;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+#back-button:hover {
+    background-color: white;
+    color:  rgb(54, 54, 141);
+}

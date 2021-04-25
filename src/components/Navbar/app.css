@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+nav {
+    width: 75%;
+    background-color: black;
+    color: grey;
+    justify-content: space-around;
+    padding: 30px;
+    display: flex;
+    font-family: 'Zen Dots', cursive;
+    font-size: 1.7rem;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.current {
+    font-weight: bolder;
+}
