@@ -7,7 +7,7 @@ const repos = [
         technologies: "HTML&CSS, JavaScript, Express.js, Jest",
         github: "https://github.com/emmanuel-sobamowo/blogue-client",
         netlify: "https://blogue.netlify.app/",
-        image: "https://user-images.githubusercontent.com/58271566/115692587-08336400-a357-11eb-942b-3774b904e0c7.gif",
+        image: "",
     },
 
     {
@@ -17,7 +17,7 @@ const repos = [
         technologies: "HTML&CSS, JavaScript, PostgresSQL, Express.js, Jest",
         github: "https://github.com/emmanuel-sobamowo/hobbit",
         netlify: "https://hobbit.netlify.app/",
-        image: "https://user-images.githubusercontent.com/58271566/114206025-cf58bf80-9952-11eb-9d02-2afd378417ab.png",
+        image: "",
     },
 
     {
@@ -27,7 +27,7 @@ const repos = [
         technologies: "React, HTML&CSS, JavaScript, Jest/React Testing Library",
         github: "https://github.com/emmanuel-sobamowo/your-repo-story",
         netlify: "https://your-repo-story.netlify.app/",
-        image: "https://user-images.githubusercontent.com/58271566/115690469-fea8fc80-a354-11eb-9215-eaf38b98c5c0.png",
+        image: "",
         
     },
 
