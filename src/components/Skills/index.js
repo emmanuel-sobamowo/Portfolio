@@ -5,7 +5,7 @@ const Skills = () => {
         <>
         <h2>Some Of My Skills</h2>
 
-            <table id="Skills">
+            <table id="skills">
             <tr>
                 <th>Technical</th>
                 <th>Team-Based</th>

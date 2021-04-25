@@ -6,13 +6,15 @@ import {BackButton} from '../index'
 
 const NavBar = () => {
     return (
-        <nav>
-            <BackButton />
-            <NavLink exact to="/" activeClassName="current">Home</NavLink>
-            <NavLink to="https://github.com/emmanuel-sobamowo" activeClassName="current">GitHub</NavLink>
-            <NavLink to="https://www.linkedin.com/in/emmanuel-sobamowo-7683b1156/" activeClassName="current">LinkedIn</NavLink>
-
-        </nav>
+        <>
+        
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#about-section">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </div>
+        </>
     )
 }
 

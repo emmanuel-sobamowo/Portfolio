@@ -1,18 +1,25 @@
 import React from 'react'
-import {Header, BackButton, About, Skills, Navbar} from './components'
+import { Switch } from 'react-router'
+import {Header, BackButton, Navbar, About, Skills, } from './components'
+
 
 const App = () => {
     return(
     <>
-    <Header />
-    <Navbar />
-    <About />
-    <Skills />
+        <Navbar />
+        <Header />
+       
+        <div id="About-container"> 
+             <About />
+        </div>
+        <div id="Skills-container">
+             <Skills />
+        </div>
+        
+    
     
     </>
     );
 }
+export default App;
 
-
-
-export default App
