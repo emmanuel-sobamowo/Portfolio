@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './app.css';
 const ContactInfo = () => {
     return (
         <>
@@ -9,7 +9,7 @@ const ContactInfo = () => {
                     <h3>
                         <a href="mailto:sobamowo.laolu@hotmail.com">
                         <img id="email-logo" src="https://i.pinimg.com/originals/bb/18/bd/bb18bdbbef437b2d50518db5a8292c94.png" alt="Email Me"/>
-                            Send me an email...</a>
+                        <br></br>  Send me an email...</a>
                     </h3>
                     
                 
@@ -19,7 +19,7 @@ const ContactInfo = () => {
                     <h3>
                         <a href="https://www.linkedin.com/in/emmanuel-sobamowo-7683b1156/">
                         <img id="linkedin-logo" src="https://img.flaticon.com/icons/png/512/174/174857.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" alt="LinkedIn Page"/>
-                            My LinkedIn Profile</a>
+                          <br></br>  My LinkedIn Profile</a>
                     </h3>
                 
             </div>
@@ -28,7 +28,7 @@ const ContactInfo = () => {
                     <h3>
                         <a href="https://github.com/emmanuel-sobamowo">
                         <img id="github-logo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Page"/>
-                            My GitHub Profile: @emmanuel-sobamowo</a>
+                         <br></br>   My GitHub Profile: @emmanuel-sobamowo</a>
                     </h3>
                 
             </div>

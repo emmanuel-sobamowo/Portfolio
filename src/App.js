@@ -9,6 +9,7 @@ const App = () => {
     return(
     <>
        <Navbar />
+
        <Switch>
            <Route exact path="/" component={About} />
            <Route path="/projects" component={Projects} />

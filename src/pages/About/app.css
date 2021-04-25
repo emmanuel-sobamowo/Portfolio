@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.container{ 
+    font-family: 'Oswald', sans-serif;
+    color:black;
+    border-radius: 15px;
+    padding: 2px 15px;
+    background-image: url("https://images.unsplash.com/photo-1547628641-ec2098bb5812?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80");
+    font-weight: bolder;
+    border: 3px solid black;
+
+}

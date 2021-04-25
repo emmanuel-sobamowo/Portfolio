@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 nav {
     width: 75%;
-    background-color: black;
-    color: grey;
-    justify-content: space-around;
-    padding: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
     display: flex;
+    justify-content: space-around;
+    padding: 20px;
     font-family: 'Zen Dots', cursive;
     font-size: 1.7rem;
-    position: absolute;
+    text-decoration: none;
+    border-radius: 8px;
 }
 
 a {
