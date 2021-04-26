@@ -1,4 +1,6 @@
-  
+import Blogue from '../../Images/gifs/Blogue.gif'
+import Hobbit from '../../Images/gifs/Hobbit.gif'
+import YourRepo from '../../Images/gifs/YourRepo.gif'
 const repos = [
     {
         id: 1,
@@ -7,7 +9,7 @@ const repos = [
         technologies: "HTML&CSS, JavaScript, Express.js, Jest",
         github: "https://github.com/emmanuel-sobamowo/blogue-client",
         netlify: "https://blogue.netlify.app/",
-        image: "https://www.loom.com/share/c246a98b5da94f7c8e4d0a059839d698",
+        image: Blogue,
     },
 
     {
@@ -17,7 +19,7 @@ const repos = [
         technologies: "HTML&CSS, JavaScript, PostgresSQL, Express.js, Jest",
         github: "https://github.com/emmanuel-sobamowo/hobbit",
         netlify: "https://hobbit.netlify.app/",
-        image: "",
+        image: Hobbit,
     },
 
     {
@@ -27,7 +29,7 @@ const repos = [
         technologies: "React, HTML&CSS, JavaScript, Jest/React Testing Library",
         github: "https://github.com/emmanuel-sobamowo/your-repo-story",
         netlify: "https://your-repo-story.netlify.app/",
-        image: "",
+        image: YourRepo,
         
     },
 
