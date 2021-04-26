@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 .container {
     width:40%;
     position: relative;
@@ -10,39 +12,65 @@
     
     
 }
+#linkedin-logo:hover{
+    width: 8rem;
+    height: 8rem;
+}
 #email-logo {
     width: 7rem;
     height: 5rem;
     
 }
+#email-logo:hover{
+    width: 8rem;
+    height: 8rem;
+}
 #github-logo {
     width: 7rem;
     height: 7rem;
 }
+#github-logo:hover{
+    width: 8rem;
+    height: 8rem;
+}
 #email-link{
     text-decoration: none;
     color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
 }
 #email-link:hover{
     font-weight: bolder;
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
 }
 #linkedin-link{
     text-decoration: none;
     color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
 }
 #linkedin-link:hover{
     font-weight: bolder;
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
 }
 #github-link{
     text-decoration: none;
     color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
 }
 #github-link:hover{
     font-weight: bolder;
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
+}
+#contact-intro{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.3rem;
+}
+#contact-subintro{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
 }

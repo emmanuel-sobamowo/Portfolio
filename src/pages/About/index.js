@@ -22,7 +22,8 @@ const About = () => {
         <div class="card" id="skills-section">
             <div class="container1">
                 <Skills />
-            </div>        
+            </div>   
+        
         </div>
         </>
     )

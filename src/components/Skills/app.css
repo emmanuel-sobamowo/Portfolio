@@ -4,10 +4,10 @@
     font-family: 'Oswald', sans-serif;
     width: 39.5rem;
     border-radius: 12px;
-    border: 3px solid rgb(17, 45, 78);
+    border: 3px solid rgb(30, 32, 34);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgb(0, 0, 0);
     background-repeat: no-repeat;
-    background-color: rgb(219, 226, 239)
+    background-color: rgb(240, 245, 249);   
 }
 .skills-card:hover{
     box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
@@ -18,7 +18,7 @@ tr:nth-child(odd) {
 }
 h1{
     text-align: center;
-    font-family: 'Orelega One', cursive;
+    font-family: 'Oswald', sans-serif;
     
 }
 

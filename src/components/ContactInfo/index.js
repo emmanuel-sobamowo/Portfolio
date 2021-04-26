@@ -4,8 +4,11 @@ const ContactInfo = () => {
     return (
         <>
         <main className="container">
-            <h1>My Contact Information</h1>
-            <h3>Below are a few ways you can contact me!</h3>
+            
+                <h1 id="contact-intro">My Contact Information</h1>
+                <h3 id="contact-subintro">Below are a few ways you can contact me!</h3>
+        
+            
 
             <div className="email">
                     <h3>

@@ -1,3 +1,13 @@
 body {
   background-color: rgb(219, 226, 239);
 }
+
+.container{
+  margin-left: 30%;
+}
+.skills-card{
+  margin-left: 30%;
+}
+.Projects-container{
+  margin-left: 30%;
+}
