@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import repos from './data'
 import {ProjectCards} from '../../components'
+import './app.css';
 
 const Projects = () => {
     const [project, setProject] = useState(repos);
@@ -15,8 +16,8 @@ const Projects = () => {
     return (
         <>
             <header className="intro-container">
-                <h1> My Projects</h1>
-                <h2>Below are some of the projects I have been working on!</h2>
+                <h1 id="project-intro"> My Projects</h1>
+                <h2 id="project-subintro">Below are some of the projects I have been working on!</h2>
             </header>
             <main>
                 {renderProjects()}
