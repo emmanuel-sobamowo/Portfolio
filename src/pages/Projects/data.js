@@ -7,7 +7,7 @@ const repos = [
         technologies: "HTML&CSS, JavaScript, Express.js, Jest",
         github: "https://github.com/emmanuel-sobamowo/blogue-client",
         netlify: "https://blogue.netlify.app/",
-        image: "",
+        image: "https://www.loom.com/share/c246a98b5da94f7c8e4d0a059839d698",
     },
 
     {
