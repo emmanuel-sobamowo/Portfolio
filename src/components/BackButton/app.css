@@ -2,8 +2,8 @@
 #back-button {
     border-radius: 12px;
     transition-duration: 0.4s;
-    background-color:rgb(0, 173, 181);;
-    color:black;
+    background-color:rgb(17, 45, 78);
+    color:rgb(219, 226, 239);
     width: 5rem;
     font-family: 'Zen Dots', cursive;
     font: 1.5rem;

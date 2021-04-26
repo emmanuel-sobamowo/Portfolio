@@ -18,6 +18,7 @@ const About = () => {
                 This is just the start of my software development journey, and I am eager to log all my progress and ideas!</p>
             </div>
         </div>
+        <br></br>
         <div class="card" id="skills-section">
             <div class="container1">
                 <Skills />
