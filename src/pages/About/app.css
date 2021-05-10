@@ -5,9 +5,10 @@
     color:black;
     border-radius: 15px;
     padding: 2px 15px;
-    background-color:rgb(240, 245, 249);   
-    border: 3px solid rgb(30, 32, 34);
+    background-color:rgb(130, 142, 130);   
+    border: 3px solid rgb(82, 97, 107);
     box-shadow: 0 8px 16px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+    margin-top: 5rem;
 
 }
 h1{
@@ -16,9 +17,7 @@ h1{
 h2{
     text-align: center;
 }
-.container:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
+
 p{
     font-family: 'Oswald', sans-serif;
 }

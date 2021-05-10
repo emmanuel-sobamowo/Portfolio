@@ -4,8 +4,8 @@ nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 4px solid rgb(30, 32, 34);
-    background-color: rgb(82, 97, 107);
+    border: 4px solid rgb(60, 59, 80);
+    background-color: rgb(58, 96, 110);
     width: 97%;
     display: flex;
     justify-content: space-around;
@@ -18,10 +18,10 @@ nav {
 
 #nav-link{
     text-decoration: none;
-    color:rgb(30, 32, 34);
+    color:rgb(224, 224, 224);
 }
 
 #nav-link:hover {
-    color: white;
+    color: rgb(130, 142, 130);
 }
 

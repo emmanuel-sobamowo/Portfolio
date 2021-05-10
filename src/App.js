@@ -3,6 +3,7 @@ import { Navbar} from './components'
 import {About, Contact, Projects} from './pages'
 import { Switch, Route } from 'react-router-dom';
 import "./App.css";
+import "./Response.css"
 
 
 const App = () => {

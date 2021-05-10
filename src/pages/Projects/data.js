@@ -1,6 +1,7 @@
 import Blogue from '../../Images/gifs/Blogue.gif'
 import Hobbit from '../../Images/gifs/Hobbit.gif'
 import YourRepo from '../../Images/gifs/YourRepo.gif'
+import quizards from '../../Images/gifs/quizards.gif'
 const repos = [
     {
         id: 1,
@@ -32,6 +33,15 @@ const repos = [
         image: YourRepo,
         
     },
+    {
+        id: 4,
+        Name: "Quizards",
+        description: "Quizards is an online quiz game which uses OpenTrivia API for fetching questions. Users can join a room with a name and room code, then create a game. (5 players max). Users can select the difficulty, category and number of questions. At the end of each quiz users are sent to a leaderboards page displaying their score.",
+        technologies: "React, CSS, Node.js, socket.io",
+        github: "https://github.com/emmanuel-sobamowo/QuizAppClient",
+        netlify: "https://quizards.netlify.app/",
+        image: quizards,
+    }
 
 
 ];
