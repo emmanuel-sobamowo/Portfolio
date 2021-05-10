@@ -1,7 +1,7 @@
 .Projects-container{
     align-items: center;
     width: 42%;
-    background-color: rgb(240, 245, 249); 
+    background-color: rgb(130, 142, 130); 
     border-radius: 20px;
     padding: 15px;
     margin-bottom: 2rem;
@@ -23,7 +23,7 @@ h3{
 .visit-website{
     font-size: 1.2rem;
     text-decoration: none;
-    background-color: rgb(82, 97, 107);
+    background-color: rgb(170, 174, 142);
     margin-left: 8rem;
     border-radius: 15px;
     width: 10rem;
@@ -34,7 +34,7 @@ h3{
 .visit-repo{
     font-size: 1.2rem;
     text-decoration: none;
-    background-color: rgb(82, 97, 107);
+    background-color: rgb(170, 174, 142);
     border-radius: 15px;
     width: 12rem;
     height: 2.6rem;
@@ -42,20 +42,20 @@ h3{
     
 }
 .visit-website:hover{
-    color: black;
+    color: rgb(224, 224, 224);
     font-size: 1.2rem;
     text-decoration: none;
-    background-color: rgb(240, 245, 249);   
+    background-color: rgb(58, 96, 110);   
     margin-left: 8rem;
     border-radius: 15px;
     width: 10rem;
     height: 2.6rem;
 }
 .visit-repo:hover{
-    color: black;
+    color: rgb(224, 224, 224);
     font-size: 1.2rem;
     text-decoration: none;
-    background-color: rgb(240, 245, 249);   
+    background-color: rgb(58, 96, 110);   
     border-radius: 15px;
     width: 12rem;
     height: 2.6rem;

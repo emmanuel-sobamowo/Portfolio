@@ -2,8 +2,8 @@
 #back-button {
     border-radius: 12px;
     transition-duration: 0.4s;
-    background-color:rgb(30, 32, 34);
-    color:rgb(219, 226, 239);
+    background-color:rgb(224, 224, 224);
+    color:rgb(58, 96, 110);
     width: 5rem;
     font-family: 'Zen Dots', cursive;
     font: 1.5rem;
@@ -13,6 +13,6 @@
 }
 
 #back-button:hover {
-    background-color: white;
-    color:  black;
+    background-color: rgb(130, 142, 130);
+    color:  rgb(58, 96, 110);
 }
